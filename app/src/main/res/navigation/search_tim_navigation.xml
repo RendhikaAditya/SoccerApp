@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_tim_navigation"
+    app:startDestination="@id/searchTimFragment">
+
+    <fragment
+        android:id="@+id/searchTimFragment"
+        android:name="com.example.soccerapp.ui.searchtim.SearchTimFragment"
+        android:label="SearchTimFragment" />
+</navigation>
